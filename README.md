@@ -14,7 +14,9 @@
 
 ## Introduction
 
-This is a simple simulator written for GNU Octave to demonstrate the effect of aperture, focal length, pixel size, and seeing / guiding accuracy on the ability to resolve small details with common amateur astrophotography equipment.
+This is a simple simulator written for GNU Octave to demonstrate the effect of aperture, focal length, pixel size, and seeing / guiding accuracy on the ability to resolve small details with common amateur astrophotography equipment. I cover everything you need to know about this tool and how to use it to make better equipment decisions for optimal resolution in deep sky imaging in the following YouTube video:
+
+[![Watch the video](https://img.youtube.com/vi/_QPp2mdYcqY/hqdefault.jpg)](https://www.youtube.com/watch?v=_QPp2mdYcqY)
 
 I quickly put this together in response to James Lamb's video, titled [Optimizing Your Imaging System for Your Guiding Performance](https://www.youtube.com/watch?v=vvJYCM4F8G0), in which he reached a counterintuitive and somewhat controversial conclusion, and since he did not share with his audience the tools he had developed to come to that conclusion, I am afraid that he might have, unintentionally of course, led some of his viewers down the wrong path.
 
@@ -65,7 +67,7 @@ Below are two screenshots representing James' equipment, showing that indeed, hi
 While playing with this tool, I made the following observations:
 
 * Unless you observe from the top of Mauna Kea, or unless your mount is unable to guide accurately, atmospheric seeing is by far the limiting factor, NOT guiding accuracy!
-* Given the average seeing conditions in most places where people live (usually, not at the top of a mountain), a 5" to 6" telescope already provides enough raw resolving power! Additionally, with most modern CMOS cameras with tiny pixels, it turns out that a focal length of about 1,000m is just about the sweet spot. A longer focal length will not bring out any more details, but the SNR will greatly suffer... A larger aperture will reduce the F/ ratio, which is good as long as it does not come with a degradation in image quality.
+* Given the average seeing conditions in most places where people live (usually, not at the top of a mountain), a 5" to 6" telescope already provides enough raw resolving power! Additionally, with most modern CMOS cameras with tiny pixels, it turns out that a focal length of about 1,000mm is just about the sweet spot. A longer focal length will not bring out any more details, but the SNR will greatly suffer... A larger aperture will reduce the F/ ratio, which is good as long as it does not come with a degradation in image quality.
 * Central obstruction has a relatively marginal impact on resolution. I tested a central obstruction of 55% (which is typical of some modern astrographs), and it does not impact the ability to resolve fine details all that much, although it likely has an impact on contrast.
 
 ## References
